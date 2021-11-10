@@ -49,7 +49,7 @@ The following commands use the slide down TV and can play any time:
 
 **Gifbot Hitcounter Commands**
 
-__These commands appear in the hitbox TV screen on the lower right so don't use them unless it's already on screen__:
+__These commands appear in the hitbox TV screen on the lower right so it's weird to use them unless it's present__:
 
 
 ```diff
@@ -77,4 +77,9 @@ The following commands are extra sneaky audio only commands:
 ```json
 " [!flush] " 
 ```
-` [duration: 16s] [cooldown: 2s]`
+` [duration: 16s] [cooldown: 16s]`
+
+```json
+" [!nukes] " 
+```
+` [duration: 11s] [cooldown: 11s]`
